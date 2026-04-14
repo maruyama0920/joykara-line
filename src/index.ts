@@ -172,7 +172,7 @@ async function handleApproval(userId: string) {
     await transporter.sendMail({
       from: process.env.GMAIL_USER,
       to: toAddresses,
-      subject: "LINE問い合わせ【ブックダム】bd_line",
+      subject: "LINE問い合わせ【JOYKARA】joy_line",
       text: formatMailBody(userId),
     });
 
